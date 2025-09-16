@@ -8,7 +8,7 @@ int main() {
     int number = rand() % 100 + 1;
 
     time_t now = time(0);
-    tm t = *localtime(&now);  // 直接解參考存成物件
+    tm t = *localtime(&now);
 
     cout << t.tm_year + 1900 << "年"
          << t.tm_mon + 1 << "月"

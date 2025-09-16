@@ -1,8 +1,7 @@
 # Ignore all files with a specific extension
 *.o
 *.exe
-
-
+*.win
 # Ignore a specific file
 mysecretfile.txt
 
