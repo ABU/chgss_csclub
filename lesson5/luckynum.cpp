@@ -4,12 +4,13 @@
 using namespace std;
 
 int main() {
-    srand(time(0));
+    srand(time(0)); 
     int number = rand() % 100 + 1;
 
     time_t now = time(0);
     tm t = *localtime(&now);
-
+	//char* dt = ctime(&now);
+	//cout<<dt;
     cout << t.tm_year + 1900 << "¦~"
          << t.tm_mon + 1 << "¤ë"
          << t.tm_mday << "¤é "
